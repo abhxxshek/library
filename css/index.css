@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navtxt{
+    color: chartreuse !important;
+}
+.nav-item a:hover{
+    color: black !important;  
+    /* important is added to forcefully change the text color */
+    background-color: aqua;
+}
+body{
+    background-image: url('../images/pngtree-an-old-library-or-book-room-with-some-books-and-plants.jpg');
+    background-size: cover;
+}
+.carousel-item img {
+    height: 400px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image fits without distortion */
+    width: 100%; /* Ensures the image fills the container's width */
+}
+.maincontent{
+    margin-top: 5%;
+}
+.maincontent .row .txt h2{
+    padding-top: 12%;
+}
+
+.carousel-item img {
+    /* height: 400px;  */
+    object-fit: contain; 
+    /* width: 100%;  */
+}
+.maincontent .row .col h2{
+    font-style: italic;
+    color: cornsilk !important;
+}

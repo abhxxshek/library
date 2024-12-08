@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navtxt{
+    color: chartreuse !important;
+}
+.nav-item a:hover{
+    color: black !important;  
+    /* important is added to forcefully change the text color */
+    background-color: aqua;
+}
+body{
+    background-image: url('../images/pngtree-an-old-library-or-book-room-with-some-books-and-plants.jpg');
+    background-size: cover;
+}
+.book-detail .row .txt img{
+    height: 450px;
+    width: auto;
+}
+.book-detail{
+    margin-top: 4%;
+}
+.book-detail .row .txt{
+    margin: 0px  auto;
+}
+.book-detail .row .details{
+    padding-top: 70px;
+}
+.book-detail .row .details .caps{
+    font-size: large;
+    font-weight: bold;
+}
+.book-detail .row .details #title{
+    font-size: large;
+    font-weight: 400;
+}
+/* hr{
+    height: 5px;
+    border: none;
+    background-color: aliceblue;
+} */
+ .similar-books{
+    margin-top: 10%;
+ }
+.similar-books h2{
+    color: aliceblue;
+    margin-left: 40px;
+    font-family: cursive;
+}
+.similar-books .row .col .card{
+    margin: 30px auto;
+    border-color: transparent !important;
+}
+
+.similar-books .row .col .card a{
+    margin: 0 auto;
+}
+.similar-books .row .col .card img{
+    max-height: 200px;
+    max-width: fit-content;
+    border-color: transparent !important;
+    border: none;
+    border-radius: 10px;
+    
+}
+ 
+.similar-books .row .col .card a:hover{
+    /* Slightly enlarge the image */
+   transform: scale(1.05); 
+   /* Add a shadow */
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); 
+ }

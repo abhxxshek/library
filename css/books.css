@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navtxt{
+    color: chartreuse !important;
+}
+.nav-item a:hover{
+    color: black !important;  
+    /* important is added to forcefully change the text color */
+    background-color: aqua;
+}
+body{
+    background-image: url('../images/huge-library-with-old-books.png');
+    background-size: cover;
+}
+.row .col .card img{
+    height: 350px;
+    border-color: transparent !important;
+    /* object-fit: contain; */
+    
+  }
+.row .col .card{
+    border-color: transparent !important;
+}
+.books-container{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.books-container .row .card {
+    max-width: 200px; 
+    margin: 0 auto; 
+  }
+  .books-container .row .col .card a:hover{
+     /* Slightly enlarge the image */
+    transform: scale(1.05); 
+    /* Add a shadow */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); 
+  }

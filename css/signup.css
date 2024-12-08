@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navtxt{
+    color: chartreuse !important;
+}
+.nav-item a:hover{
+    color: black !important;  
+    /* important is added to forcefully change the text color */
+    background-color: aqua;
+}
+body{
+    background-image: url('../images/pexels-element5-1370296.jpg');
+    background-size: cover;
+}
+.frm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 12%;
+    margin-top: 60px;
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+
+.frm .usr h3{
+    font-weight:  bolder;
+
+}
+
+.frm .usr label{
+    font-weight: 300px;
+    font-size: larger;
+}
+
+@media screen and (max-width:480px) {
+
+    .frm{
+        flex-direction:column;
+    }
+    
+}
